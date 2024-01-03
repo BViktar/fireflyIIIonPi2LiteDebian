@@ -74,6 +74,9 @@ sudo php artisan firefly-iii:correct-database
 sudo php artisan firefly-iii:report-integrity
 
 sudo ln -s /var/www/firefly-iii /var/www/html/firefly-iii
+
+sudo service apache2 start
+
 - in browser go to http://raspberry_url_ip/firefly-iii/public
 
 💪 🤘 👏 Enjoy your meal! 😄
